@@ -11,11 +11,11 @@ HTTP-to-SMTP relay for sending emails via MangoMail.
 
 ```
 API_KEY=your-secure-random-api-key-here
-SMTP_HOST=smtp.mangomail.com
+SMTP_HOST=smtp.yourprovider.com
 SMTP_PORT=587
-SMTP_USER=noreply@adlhomeimprovement.com
-SMTP_PASS=@EldestCastle220
-FROM_EMAIL=noreply@adlindustries.net
+SMTP_USER=your-smtp-username
+SMTP_PASS=your-smtp-password
+FROM_EMAIL=noreply@yourdomain.com
 ```
 
 5. Deploy!
