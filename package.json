@@ -1,0 +1,24 @@
+{
+  "name": "smtp-relay",
+  "version": "1.0.0",
+  "description": "HTTP to SMTP relay service for email sending",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["smtp", "email", "relay"],
+  "author": "ADL Home Improvement",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
